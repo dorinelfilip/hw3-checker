@@ -7,7 +7,7 @@ date
 unzip -q archive.zip
 unzip -q artifact.zip
 
-sudo timeout 300 python3 test.py
+timeout 300 python3 test.py
 
 echo "Done"
 date
